@@ -6,7 +6,7 @@
 	Course: COMP 390
 	TME = 3
 	Program : 1
-	Purpose: To develop a program to light a sphere using OpenGL’s lighting features.
+	Purpose: To develop a program to light a sphere using OpenGLï¿½s lighting features.
 	The program defines three light sources originating from the top left corner,
 	top right corner, and directly behind the viewer. Each light source should shed a
 	white, red, blue, or green light, as selected by the user. Three different
@@ -293,6 +293,7 @@ void reshape(int w, int h) {
 
 	glViewport(0, 0, (GLsizei)w, (GLsizei)h); //set the viewport to the client window area
 	glMatrixMode(GL_PROJECTION); // set the projection matrix mode
+	glLoadIdentity(); // reset the projection matrix
 	glFrustum(-1.0, 1.0, -1.0, 1.0, 1.5, 40.0); // set the projection frustum
 	glMatrixMode(GL_MODELVIEW); // set the modelview matrix mode
 
