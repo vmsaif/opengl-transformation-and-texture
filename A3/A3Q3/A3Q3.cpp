@@ -18,8 +18,6 @@
 #include <string>
 #include "math.h"
 
-#pragma surpress(warning:C6387)
-#pragma surpress(warning:C6386)
 using namespace std;
 
 typedef GLdouble vertex3[3];
