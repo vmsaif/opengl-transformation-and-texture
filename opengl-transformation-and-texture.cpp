@@ -1,18 +1,13 @@
 
-
-// Q1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 /*
 	Author: Saif Mahmud
-	Student ID: 3433058
 	Date : 3 / 30 / 2023
-	Course: COMP 390
-	TME = 3
-	Program : 3
+
 	Description: This program draws eight houses with a triangle roofs and a floors using translation, scaling, and rotation to transform the houses. The houses are drawn using shapes and display lists. Also a background texture is added from a bmp format image.
 */
 
 #include <iostream>
-#include "glut.h"
+#include <GL/glut.h>
 #include <fstream>
 #include "windows.h"
 #include <string>

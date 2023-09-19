@@ -15,8 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="A3Q3.cpp">
+    <ClCompile Include="opengl-transformation-and-texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
