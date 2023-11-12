@@ -32,10 +32,10 @@ This project requires the OpenGL library or `glut.h`. The easiest way to set it 
 1. Navigate to the directory where you cloned the project.
 2. Open the `opengl-transformation.sln` file in Visual Studio.
 3. Click on `Project` in the menu bar.
-4. Select `Manage NuGet Packages`.
+4. Select `Manage NuGet Packages`.(If you don't see it, close the VS window, then resume from step 2.)
 5. Click on the "Browse" tab.
 6. Search for "freeglut".
-7. Select "nupengl.core" (which includes glut.h) and click `Install`.
+7. Select "nupengl.core" (which includes glut.h) and click `Install`.(If already installed, then uninstall then install again).
 
 ## Running the Project
 
